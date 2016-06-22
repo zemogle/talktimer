@@ -1,0 +1,5 @@
+build/
+dist/
+are_you_stil_talking/
+__pycache__/
+are_you_still_talking.egg-info
