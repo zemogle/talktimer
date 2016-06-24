@@ -27,7 +27,7 @@ def blink_timer(total, warning, seconds):
         b1.fade_to_rgb(1000, 0, 0, 255)
         time.sleep(warning*seconds)
         b1.fade_to_rgb(1000, 255, 0, 0)
-        time.sleep(10*seconds)
+        time.sleep(20)
 
         blink_go_crazy(b1)
     b1.close()
