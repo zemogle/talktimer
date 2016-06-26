@@ -12,7 +12,7 @@ The blink(1) library is only Python 3 compatible and PyUSB 1.0.0 release version
 Using [Anaconda](http://anaconda.io)
 ```
 conda create -n blink python=3.4
-source blink
+source activate blink
 ```
 Using `virtualenv`
 ```
