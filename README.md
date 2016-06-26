@@ -21,7 +21,7 @@ source env/blink/bin/activate
 ```
 Then you can download this package and install with:
 ```
-pip install blink_chair/ # or whatever the directory name is that contains these files
+pip install session_chair/ # or whatever the directory name is that contains these files
 ```
 
 ## Usage instructions
@@ -31,9 +31,9 @@ Example usage is:
 ```
 are_you_still_talking --total 60 --warning 10 --seconds
 ```
-Total = total talk time
-Warning = Time before the end when the warning will compatible
-Seconds [optional] = When the numbers refer to seconds. If you leave this off, the numbers are in minutes.
+- Total = total talk time
+- Warning = Time before the end when the warning will compatible
+- Seconds [optional] = When the numbers refer to seconds. If you leave this off, the numbers are in minutes.
 
 ## FAQs
 ### 1. Blink1 module not found
