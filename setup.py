@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     name='are_you_still_talking',
-    version='0.2',
+    version='0.3',
     packages=['session_chair'],
     install_requires=[
+        'blink1',
         'Click',
         'pyusb==1.0.b1',
-        'blink1'
     ],
     entry_points='''
         [console_scripts]
