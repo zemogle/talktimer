@@ -21,7 +21,7 @@ source env/blink/bin/activate
 ```
 Then you can download this package and install with:
 ```
-pip install session_chair/ # or whatever the directory name is that contains these files
+pip install talktimer-master/ # or whatever the directory name is that contains these files
 ```
 
 ## Usage instructions
