@@ -53,3 +53,15 @@ you have the wrong version of PyUSB. The released version `1.0.0` has a bug in i
 pip uninstall pyusb
 pip install pyusb==1.0.b1
 ```
+
+### 3. Access Denied
+If you get the following:
+```
+usb.core.USBError: [Error 13] Access denied (insufficient permissions)
+```
+this is because you are using a Mac and `libusb1` has a bug in it (since 2011). In the requirements I make sure you get `pyusb`. Unfortunately `libusb1` gets installed by the `blink1` library and it seems these are in conflict.
+
+Just uninstall `libusb1` and you should be fine:
+```
+pip uninstall libusb1
+```
