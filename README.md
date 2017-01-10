@@ -35,7 +35,7 @@ are_you_still_talking --total 60 --warning 10 --seconds
 - Warning = Time before the end when the warning will compatible
 - Seconds [optional] = When the numbers refer to seconds. If you leave this off, the numbers are in minutes.
 
-## FAQs
+## Troubleshooting
 ### 1. Blink1 module not found
 If you get the following error:
 ```
